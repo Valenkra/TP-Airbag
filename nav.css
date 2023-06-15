@@ -1,0 +1,72 @@
+
+/* COLORES */
+
+nav {
+    background-color: rgb(143, 16, 16);
+}
+
+nav ul li {
+    background-color: #dddddd;
+}
+
+
+
+nav ul li a {
+    color: black;
+}
+
+nav span {
+    color: #dddddd;
+}
+
+/* */
+
+nav {
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+}
+
+nav span {
+    font-family: 'Sarpanch';
+    font-weight: 600;
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 3rem;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px 30px;
+    margin: 0 5px;
+    border: solid rgb(143, 16, 16) 5px;
+    border-radius: 12px;
+}
+
+nav ul li:hover {
+    background-color: rgb(143, 16, 16);
+    border: solid #dddddd 5px;
+    border-radius: 12px;
+
+    transition: border .5s;
+}
+
+nav ul li:hover a {
+    color: #dddddd;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+}
