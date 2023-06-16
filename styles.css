@@ -9,7 +9,7 @@ img {
 
 /* HEADER */
 
-header {
+#index-header {
     height:65em;
 }
 
@@ -34,13 +34,17 @@ header {
 
 /* MAIN SECTION */
 
-section {
-    padding: 5vw 8vw;
+#index-section {
     height: 70vh;
     margin-bottom: 50px;
 }
 
+section {
+    padding: 5vw 8vw;
+}
+
 section h2 {
+    
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
