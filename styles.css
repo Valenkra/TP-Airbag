@@ -35,5 +35,22 @@ header {
 /* MAIN SECTION */
 
 section {
-    padding: 0 8vw;
+    padding: 5vw 8vw;
+    height: 70vh;
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.grid div {
+    margin: 22px;
 }

@@ -6,9 +6,13 @@ nav {
 }
 
 nav ul li {
-    background-color: #dddddd;
+    background-color: #fafafa;
 }
 
+nav.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
 
 
 nav ul li a {
@@ -16,7 +20,7 @@ nav ul li a {
 }
 
 nav span {
-    color: #dddddd;
+    color: #fafafa;
 }
 
 /* */
@@ -56,14 +60,14 @@ nav ul li {
 
 nav ul li:hover {
     background-color: rgb(143, 16, 16);
-    border: solid #dddddd 5px;
+    border: solid #fafafa 5px;
     border-radius: 12px;
 
     transition: border .5s;
 }
 
 nav ul li:hover a {
-    color: #dddddd;
+    color: #fafafa;
 }
 
 nav ul li a {
