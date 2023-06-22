@@ -1,11 +1,94 @@
 * {
     margin: 0;
     padding: 0;
+    
+    font-family: 'Rubik';
 }
 
 img {
     max-width: 100%;
 }
+
+
+/* NAV - COLORES */
+
+nav {
+    background-color: rgb(143, 16, 16);
+}
+
+nav ul li {
+    background-color: #fafafa;
+}
+
+nav.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+
+nav ul li a {
+    color: black;
+}
+
+nav span {
+    color: #fafafa;
+}
+
+/* NAV - TECNICO */
+
+nav {
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+}
+
+nav span {
+    font-family: 'Sarpanch';
+    font-weight: 600;
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 3rem;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px 30px;
+    margin: 0 5px;
+    border: solid rgb(143, 16, 16) 5px;
+    border-radius: 12px;
+}
+
+nav ul li:hover {
+    background-color: rgb(143, 16, 16);
+    border: solid #fafafa 5px;
+    border-radius: 12px;
+
+    transition: border .5s;
+}
+
+nav ul li:hover a {
+    font-family: 'Raleway';
+    color: #fafafa;
+}
+
+nav ul li a {
+    
+    font-family: 'Raleway';
+    text-decoration: none;
+    display: block;
+}
+
 
 /* HEADER */
 
@@ -34,6 +117,10 @@ img {
 
 /* MAIN SECTION */
 
+h2 {
+    padding: 5em 7em 0 7em;
+}
+
 #index-section {
     height: 70vh;
     margin-bottom: 50px;
@@ -57,4 +144,74 @@ section h2 {
 
 .grid div {
     margin: 22px;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem; 
+    color: black;
+}
+
+.card img, .card video{
+    max-width: 35rem;
+    height: auto;
+}
+
+.card iframe {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.card a img {
+    margin-bottom: 1em;
+}
+
+.card p {
+    margin-top: .5em;
+}
+
+/* FOOTER */
+
+footer {
+    width:100%;
+    background-color: rgb(143, 16, 16);
+    display: flex;
+    justify-content: center;
+    color:#fafafa;
+    height: 28vh;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 110px;
+}
+.footer_imgs {
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer div span {
+    
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+footer div a {
+    
+    text-decoration: none;
+    color: #fafafa;
+}
+
+footer div a img {
+    margin: 0 10px;
+}
+
+.icon {
+    max-width: 3.5vw;
 }
