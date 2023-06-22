@@ -93,7 +93,9 @@ nav ul li a {
 /* HEADER */
 
 #index-header {
-    height:65em;
+    max-width: 1384;
+    height:758.25em;
+    min-height: 100px;
 }
 
 .header_banner {
@@ -127,6 +129,7 @@ h2 {
 }
 
 section {
+    max-width: 100%;
     padding: 5vw 8vw;
 }
 
@@ -154,7 +157,7 @@ section h2 {
 }
 
 .card img, .card video{
-    max-width: 35rem;
+    max-width: 20rem;
     height: auto;
 }
 
@@ -165,6 +168,7 @@ section h2 {
 
 .card a img {
     margin-bottom: 1em;
+    display: flex;
 }
 
 .card p {
