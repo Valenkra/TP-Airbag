@@ -156,6 +156,12 @@ section h2 {
     max-height: 20rem;
 }
 
+.card span {
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Raleway';
+}
+
 .card a img {
     margin-bottom: 1em;
     display: flex;
