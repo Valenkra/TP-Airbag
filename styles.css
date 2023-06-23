@@ -92,12 +92,6 @@ nav ul li a {
 
 /* HEADER */
 
-#index-header {
-    max-width: 1384;
-    height:758.25em;
-    min-height: 100px;
-}
-
 .header_banner {
     position: relative;
     text-align: center;
