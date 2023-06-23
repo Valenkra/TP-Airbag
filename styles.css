@@ -114,12 +114,7 @@ nav ul li a {
 /* MAIN SECTION */
 
 h2 {
-    padding: 5em 7em 0 7em;
-}
-
-#index-section {
-    height: 70vh;
-    margin-bottom: 50px;
+    padding: 0 7em;
 }
 
 section {
